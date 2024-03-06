@@ -1,0 +1,124 @@
+#contenedor
+{
+    height:550px;
+    width: 500px;
+    background-color: crimson;
+    margin: auto;
+    
+}
+#oreja1
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+#oreja2
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+}
+#cabeza
+{
+    top: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 50% 50% 40% 40%;
+    background-color: brown;
+    position: relative;
+    margin: auto;
+}
+#ojo1
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+#ojo2
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+}
+#cuerpo
+{
+    width: 250px;
+    height: 300px;
+    border-radius: 100px;
+    background-color: brown;
+    position: relative;
+    margin: auto;
+}
+#centro
+{
+    top: 50px;
+    width: 150px;
+    height: 200px;
+    background-color: lightcoral;
+    border-radius: 100px;
+    position: relative;
+    margin: auto;
+}
+#pata1
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: brown;
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 10%;
+    bottom: -20%;
+}
+
+#pata2
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: brown;
+    position: absolute;
+    bottom: -20%;
+    right: 10%;
+}
+#brazo1
+{
+    width: 40px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: brown;
+    /*order: 2px solid black;*/
+    position: absolute;
+    top: 10%;
+    left: -20%;
+    transform: rotate(110deg);
+}
+#brazo2
+{
+    width: 40px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: brown;
+    position: absolute;
+    top: 10%;
+    right: -20%;
+    transform: rotate(70deg);
+}
